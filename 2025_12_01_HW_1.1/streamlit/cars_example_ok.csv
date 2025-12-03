@@ -1,0 +1,9 @@
+name,year,selling_price,km_driven,fuel,seller_type,transmission,owner,mileage,engine,max_power,torque,seats
+Ford Classic 1.6 Duratec CLXI,2013,250000,60000,Petrol,Individual,Manual,Second Owner,14.09 kmpl,1596 CC,99.6 bhp,146Nm@ 3400rpm,5.0
+Honda Amaze EX i-Vtech,2013,300000,120000,Petrol,Individual,Manual,Second Owner,18.0 kmpl,1198 CC,86.7 bhp,109Nm@ 4500rpm,5.0
+Hyundai Santro Sportz AMT BSIV,2019,466000,25000,Petrol,Individual,Automatic,Fourth & Above Owner,20.3 kmpl,1086 CC,68 bhp,99Nm@ 4500rpm,5.0
+Tata Indica Vista Quadrajet VX,2012,200000,90000,Diesel,Individual,Manual,First Owner,22.3 kmpl,1248 CC,74 bhp,190Nm@ 1750-3000rpm,5.0
+Chevrolet Enjoy 1.4 LTZ 7,2013,350000,37000,Petrol,Dealer,Manual,First Owner,13.7 kmpl,1399 CC,98.79 bhp,131Nm@ 4400rpm,7.0
+Toyota Etios Liva GD,2013,451000,120000,Diesel,Individual,Manual,First Owner,23.59 kmpl,1364 CC,67.06 bhp,170Nm@ 1800-2400rpm,5.0
+Maruti Swift Dzire ZDI,2017,750000,110000,Diesel,Individual,Manual,Second Owner,28.4 kmpl,1248 CC,74.02 bhp,190Nm@ 2000rpm,5.0
+Tata Sumo Gold EX BSIII,2017,400000,140000,Diesel,Individual,Manual,First Owner,14.07 kmpl,2956 CC,69.01 bhp,223Nm@ 1600-2200rpm,7.0
