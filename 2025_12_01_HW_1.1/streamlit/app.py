@@ -7,7 +7,7 @@ from pathlib import Path
 st.set_page_config(page_title="Churn Prediction", page_icon="🎯", layout="wide")
 
 MODEL_DIR = Path(__file__).resolve().parent / "models"
-MODEL_PATH = MODEL_DIR / "churn_model.pkl"
+MODEL_PATH = MODEL_DIR / "linear_scaled.pkl"
 FEATURE_NAMES_PATH = MODEL_DIR / "feature_names.pkl"
 
 
