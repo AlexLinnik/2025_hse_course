@@ -4,11 +4,11 @@ import plotly.express as px
 import pickle
 from pathlib import Path
 
-st.set_page_config(page_title="Churn Prediction", page_icon="🎯", layout="wide")
+st.set_page_config(page_title="HW1 Regression Prediction", page_icon="🎯", layout="wide")
 
 MODEL_DIR = Path(__file__).resolve().parent / "models"
 MODEL_PATH = MODEL_DIR / "linear_scaled.pkl"
-FEATURE_NAMES_PATH = MODEL_DIR / "feature_names.pkl"
+FEATURE_NAMES_PATH = MODEL_DIR / "linear_scaled_features.pkl"
 
 
 @st.cache_resource
@@ -17,9 +17,9 @@ def load_model():
 
     with open(MODEL_PATH, 'rb') as f:
         model = pickle.load(f)
-    with open(FEATURE_NAMES_PATH, 'rb') as f:
-        feature_names = pickle.load(f)
-    return model, feature_names
+    #with open(FEATURE_NAMES_PATH, 'rb') as f:
+    #    feature_names = pickle.load(f)
+    return model, 'feature_names'
 
 
 def prepare_features(df, feature_names):
